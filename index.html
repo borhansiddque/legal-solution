@@ -41,7 +41,7 @@
     <header class="max-w-screen-xl mx-auto">
         <!-- Navbar Section -->
         <nav class="py-4">
-            <div class="navbar ">
+            <div class="navbar py-0">
                 <div class="navbar-start gap-4">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -58,22 +58,37 @@
                             <li><a>Cases</a></li>
                             <li><a>Blogs</a></li>
                             <li><a>Contact Us</a></li>
-                            <a class="btn bg-[#B68C5A] text-white hover:bg-[rgba(182,141,90,0.8)] flex sm:hidden">Free Consultation</a>
+                            <a class="btn bg-[#B68C5A] text-white hover:bg-[rgba(182,141,90,0.8)] flex sm:hidden">Free
+                                Consultation</a>
                         </ul>
                     </div>
                     <img src="./images/logo2.png" alt="">
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal gap-5">
-                        <li><a class="p-0 hover:bg-transparent focus:bg-none text-lg">Home <i
-                                    class="ri-arrow-right-s-line"></i></a></li>
-                        <li><a class="p-0 hover:bg-transparent focus:bg-none text-lg">Services <i
-                                    class="ri-arrow-right-s-line"></i></a></li>
-                        <li><a class="p-0 hover:bg-transparent focus:bg-none text-lg">Cases <i
-                                    class="ri-arrow-right-s-line"></i></a></li>
-                        <li><a class="p-0 hover:bg-transparent focus:bg-none text-lg">Blogs <i
-                                    class="ri-arrow-right-s-line"></i></a></li>
-                        <li><a class="p-0 hover:bg-transparent focus:bg-none text-lg">Contact Us</a></li>
+                        <li class="">
+                            <a class="p-0 hover:bg-inherit text-lg text-[#707070]">Home
+                                <i class="ri-arrow-right-wide-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="p-0 hover:bg-transparent focus:bg-none text-lg text-[#707070]">Services
+                                <i class="ri-arrow-right-wide-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="p-0 hover:bg-transparent focus:bg-none text-lg text-[#707070]">Cases
+                                <i class="ri-arrow-right-wide-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="p-0 hover:bg-transparent focus:bg-none text-lg text-[#707070]">Blogs
+                                <i class="ri-arrow-right-wide-line"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="p-0 hover:bg-transparent focus:bg-none text-lg text-[#707070]">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="navbar-end hidden sm:flex">
@@ -81,6 +96,26 @@
                 </div>
             </div>
         </nav>
+        <!-- Hero Section -->
+        <div class="px-2 sm:px-5 lg:px-0">
+            <div class="hero mt-12 py-14 sm:py-20 px-5 rounded-lg" style="background-image: url(./images/banner.png);">
+                <div class="hero-content text-neutral-content text-center p-0">
+                    <div class="max-w-xl">
+                        <h1 class="mb-5 text-5xl sm:text-6xl font-bold text-white leading-tight sm:leading-snug">We
+                            Provide Effective Legal Solutions</h1>
+                        <p class="mb-8">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
+                        </p>
+                        <div class="flex justify-center gap-4">
+                            <input type="text" class="flex-1 outline-none pl-5 rounded-lg text-gray-800 text-sm"
+                                placeholder="Search your services">
+                            <button class="btn bg-[#B68C5A] text-white border-none hover:bg-[#B68C5A]">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 </body>
 
